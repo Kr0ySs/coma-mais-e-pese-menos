@@ -1,0 +1,86 @@
+/* Reset e base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FFA726;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  p, ul {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #FFA726;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #ffe0b2;
+  }
+  
+  .hero {
+    background-color: #FB8C00;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  section {
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .footer {
+    background-color: #EF6C00;
+    padding: 30px 0;
+    text-align: center;
+  }  
+  @media (max-width: 768px) {
+    header.hero h1 {
+      font-size: 2rem;
+    }
+  
+    header.hero p {
+      font-size: 1rem;
+    }
+  
+    .btn {
+      padding: 0.5rem 1rem;
+    }
+  }
+  
